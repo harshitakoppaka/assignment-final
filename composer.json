@@ -1,0 +1,5 @@
+{
+    "require": {
+        "strobotti/php-jwk": "^1.4"
+    }
+}

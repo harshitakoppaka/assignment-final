@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^project3.php?u=.well-known/jwks.json/$ .well-known/jwks.json [NC,L]
+RewriteRule ^project3.php?u=register$ register [NC,L]
